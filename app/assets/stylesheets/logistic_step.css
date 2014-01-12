@@ -1,16 +1,30 @@
 .selectionBox {
-  z-index: -10;
-  -webkit-transition: all;
-  transition: all;
 }
-.selected .selectionBox {
-  stroke: blue;
-  opacity: 0.5;
+.selected path {
+  stroke: #3E94E0;
   stroke-width:1;
+  opacity: 1;
+}
+.hover .selectionBox {
+  stroke: #3E94E0;
+  stroke-width:2;
+}
+
+.alert path {
+  fill: red;
+  -webkit-animation: pulsate 1s;
+}
+.success path{
+  fill: green;
+  -webkit-animation: pulsate 1s;
+}
+.warning path{
+  fill: orange;
+  -webkit-animation: pulsate 1s;
 }
 
 @-webkit-keyframes pulsate {
-    0% {opacity: 0.0;}
+    0% {opacity: 0.1;}
     50% {opacity: 1.0;}
-    100% { opacity: 0.0;}
+    100% { opacity: 0.1;}
 }
