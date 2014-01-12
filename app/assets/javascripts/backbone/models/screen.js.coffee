@@ -14,7 +14,7 @@ class VanderlandenDemo.Models.Screen extends Backbone.Model
 
   load_svg_document: ->
     dfd = new jQuery.Deferred()
-    d3.xml "/assets/screens/#{@get('svg_file')}", 'image/svg+xml', (error, data) =>
+    d3.xml @get('svg_file'), 'image/svg+xml', (error, data) =>
       if error
         console.log('Error while loading the SVG file!', error)
         dfd.reject(error)

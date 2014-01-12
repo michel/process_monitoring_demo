@@ -4,7 +4,7 @@ class Screen
      {
         id: 1,
         title: 'Logistics Monitoring',
-        svg_file: 'screen1.svg'
+        svg_file: ActionController::Base.helpers.asset_path('screens/screen1.svg')
      }
     ]
   end
