@@ -1,0 +1,7 @@
+#screens
+:javascript
+  $(function() {
+    // Blog is the app name
+    window.router = new VanderlandenDemo.Routers.ScreensRouter({screens: #{@screens.to_json.html_safe}});
+    Backbone.history.start();
+  });
