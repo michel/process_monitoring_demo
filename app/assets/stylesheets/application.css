@@ -13,7 +13,6 @@
  *= require_tree .
  */
 circle {
-  fill: #08c;
   opacity: 0.5;
 }
 text tspan {
