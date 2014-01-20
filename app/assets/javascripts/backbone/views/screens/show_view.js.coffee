@@ -20,8 +20,8 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
       @randomEvents()
       element = $(document)
       @d3.attr 'viewBox',null
-      @d3.attr "width", null
-      @d3.attr "height", null
+      @d3.attr "width", '100%'
+      @d3.attr "height", '75%'
       dfd.resolve()
     return dfd.promise()
 
@@ -45,13 +45,17 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
         step.set('state','')
         
       states = ['alert','success','warning']
-      @model.logistics_steps.at(step_rand).set('state',states[Math.floor(Math.random() * states.length)])
+      if @model.logistics_steps.size() > 0
+        @model.logistics_steps.at(step_rand).set('state',states[Math.floor(Math.random() * states.length)])
       setTimeout triggerSteps, 6000
 
      pathCounter = 1
      do animatePaths = =>
         @animatePath('#follow',pathCounter)
         @animatePath('#follow2',pathCounter)
+        @animatePath('#follow3',pathCounter)
+        @animatePath('#follow4',pathCounter)
+        @animatePath('#follow5',pathCounter)
         pathCounter += 1
         setTimeout animatePaths, Math.round(Math.random() * (2000))
 
@@ -66,6 +70,8 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
   animatePath: (path,pathCount) ->
     group = @d3.append("svg:g")
     targetPath = @d3.selectAll(path)
+    if targetPath.size() < 1
+      return
     pathNode = targetPath.node()
     pathLength = pathNode.getTotalLength()
     circle = group.append("circle").attr(

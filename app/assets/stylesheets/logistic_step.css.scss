@@ -30,24 +30,6 @@ $menu_width: 5%;
     100% { opacity: 0.1;}
 }
 
-#menu {
-  position: absolute;
-  background: #f3f3f3;
-  float: left;
-  height: 100%;
-  text-align: center;
-  ul {
-    font-size: 3em;
-    margin-top: 10px;
-      li {
-        text-decoration: none;
-        cursor: pointer;
-        color: #343434;
-        width: 100px;
-    }
-  }
-}
-
 #graps {
   #bar {
     text-align: center;
@@ -58,10 +40,6 @@ $menu_width: 5%;
   }
 }
 
-#screen_content {
-  position: absolute;
-  left: 100px;
-}
 #svg_container svg {
   top: 0px;
   width:100%;
