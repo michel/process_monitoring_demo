@@ -19,6 +19,7 @@ class VanderlandenDemo.Models.Screen extends Backbone.Model
         console.log('Error while loading the SVG file!', error)
         dfd.reject(error)
       else
+        @logistics_steps.reset()
         @create_logistic_steps(data.documentElement)
         dfd.resolve(data.documentElement)
     return dfd.promise()
