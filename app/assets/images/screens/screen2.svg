@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="916px" height="648px" viewBox="0 0 916 648" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="screen1" sketch:type="MSLayerGroup" transform="translate(73.000000, 33.000000)">
+            <g id="Page-1">
+                <g id="Slice-1">
+                    <g id="Page-1">
+                        <g id="screen1">
+                            <g id="Page-1">
+                                <g id="T3">
+                                    <g id="logistics_step_problem_bag" transform="translate(83.500000, 46.000000)">
+                                        <path d="M0,24.9991061 L0,30.0008939 C0,34.4186782 3.58842893,38 7.99471669,38 L135.005283,38 C139.420643,38 143,34.4138323 143,30.0008939 L143,24.9991061 C143,20.5813218 139.411571,17 135.005283,17 L7.99471669,17 C3.57935659,17 0,20.5861677 0,24.9991061 L0,24.9991061 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Problem-bag" transform="translate(43.000000, 0.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Problem-bag">
+                                                    <tspan x="0.4272962" y="7.34611079">Problem bag</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_a" transform="translate(83.500000, 229.000000)">
+                                        <path d="M7.99471669,18 C3.57935659,18 0,21.5861677 0,25.9991061 L0,31.0008939 C0,35.4186782 3.58842893,39 7.99471669,39 L135.005283,39 C139.420643,39 143,35.4138323 143,31.0008939 L143,25.9991061 C143,21.5813218 139.411571,18 135.005283,18 L7.99471669,18 L7.99471669,18 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Problem-bag" transform="translate(49.500000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Process-A">
+                                                    <tspan x="-0.221442" y="7.32490528">Process A</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_b" transform="translate(311.000000, 230.000000)">
+                                        <path d="M7.99471669,17 C3.57935659,17 0,23.6600257 0,31.8554828 L0,41.1445172 C0,49.3489738 3.58842893,56 7.99471669,56 L135.005283,56 C139.420643,56 143,49.3399743 143,41.1445172 L143,31.8554828 C143,23.6510262 139.411571,17 135.005283,17 L7.99471669,17 L7.99471669,17 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Problem-bag" transform="translate(48.500000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Process-B">
+                                                    <tspan x="0.2390086" y="7.32490528">Process B</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_c" transform="translate(540.500000, 328.304688)">
+                                        <path d="M7.99471669,17 C3.57935659,17 0,20.5861677 0,24.9991061 L0,30.0008939 C0,34.4186782 3.58842893,38 7.99471669,38 L135.005283,38 C139.420643,38 143,34.4138323 143,30.0008939 L143,24.9991061 C143,20.5813218 139.411571,17 135.005283,17 L7.99471669,17 L7.99471669,17 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Problem-bag" transform="translate(48.500000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Process-C">
+                                                    <tspan x="-0.1179462" y="7.32490528">Process C</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_bag_entery" transform="translate(311.000000, 46.000000)">
+                                        <path d="M7.99471669,17 C3.57935659,17 0,20.5861677 0,24.9991061 L0,30.0008939 C0,34.4186782 3.58842893,38 7.99471669,38 L135.005283,38 C139.420643,38 143,34.4138323 143,30.0008939 L143,24.9991061 C143,20.5813218 139.411571,17 135.005283,17 L7.99471669,17 L7.99471669,17 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Bag-entery" transform="translate(48.500000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Bag-entery">
+                                                    <tspan x="-0.1984228" y="7">Bag entery</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_re_entry" transform="translate(539.500000, 47.000000)">
+                                        <path d="M7.99471669,16 C3.57935659,16 0,19.5861677 0,23.9991061 L0,29.0008939 C0,33.4186782 3.58842893,37 7.99471669,37 L135.005283,37 C139.420643,37 143,33.4138323 143,29.0008939 L143,23.9991061 C143,19.5813218 139.411571,16 135.005283,16 L7.99471669,16 L7.99471669,16 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Re-entery" transform="translate(49.000000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Group">
+                                                <text id="Re-entery">
+                                                    <tspan x="0.0667604" y="7.32490528">Re-entery</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_loop" transform="translate(83.500000, 137.000000)">
+                                        <path d="M0,25.9991061 L0,31.0008939 C0,35.4186782 3.58632295,39 7.99945669,39 L593.000543,39 C597.418521,39 601,35.4138323 601,31.0008939 L601,25.9991061 C601,21.5813218 597.413677,18 593.000543,18 L7.99945669,18 C3.58147875,18 0,21.5861677 0,25.9991061 L0,25.9991061 L0,25.9991061 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Re-entery" transform="translate(262.000000, 0.282066)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Automation-loop">
+                                                <text>
+                                                    <tspan x="-0.266931" y="7.32490528">Automation loop</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="logistics_step_loop2" transform="translate(192.000000, 376.000000)">
+                                        <path d="M0,52.8055225 L0,75.1944775 C0,94.9693215 0.805580029,111 1.79688295,111 L133.203117,111 C134.195508,111 135,94.9476303 135,75.1944775 L135,52.8055225 C135,33.0306785 134.19442,17 133.203117,17 L1.79688295,17 C0.804491899,17 0,33.0523697 0,52.8055225 L0,52.8055225 L0,52.8055225 Z" id="Rectangle-3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="Re-entery" transform="translate(36.000000, 0.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#000000" sketch:type="MSTextLayer" font-weight="bold">
+                                            <g id="Automation-loop">
+                                                <text>
+                                                    <tspan x="-0.266931" y="7">Automation loop</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <path d="M0,0 L0,539 L766,539 L766,0 L0,0 L0,0 Z" id="Terminal-#1" stroke="#979797" stroke-dasharray="4" sketch:type="MSShapeGroup"></path>
+                                    <path d="M1.5,297.5 L766.50067,297.5" id="Line" stroke="#979797" stroke-dasharray="4" sketch:type="MSShapeGroup"></path>
+                                    <path d="M623.258221,184.304688 L623.258221,194.031412 L623.258221,203.757813 L623.258221,308.011719" id="Path-67" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M623.258221,185.104688 L626.258221,195.904688 C624.158221,195.904688 622.358221,195.904687 620.258221,195.904687 L623.258221,185.104688 L623.258221,185.104688 L623.258221,185.104688 Z" id="Path-67-decoration-1" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M382,184.304688 L382,194.031412 L382,203.757813 L382,221.93083" id="Path-67" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M382,185.104688 L385,195.904688 C382.9,195.904688 381.1,195.904687 379,195.904687 L382,185.104688 L382,185.104688 L382,185.104688 Z" id="Path-67-decoration-1" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M662.023438,102.478817 L662.023438,118.980373 L724.072071,118.980373 L724.072071,210.130558 L624.258221,210.130558" id="Path-68" stroke="#979797" sketch:type="MSShapeGroup"></path>
+                                    <g id="Path-65-+-0-+-0" transform="translate(381.000000, 91.000000)">
+                                        <path d="M2.95703125,-0.1640625 L2.95703125,39.6239949" id="Path-65" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <path d="M2.95703125,38.8359357 L5.95703125,28.0359363 L-0.04296875,28.035936 L2.95703125,38.8359357 L2.95703125,38.8359357 L2.95703125,38.8359357 Z" id="Path-65-decoration-1" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <path d="M2.95703125,0.635937462 L5.95703125,11.4359371 L-0.04296875,11.4359368 L2.95703125,0.635937462 L2.95703125,0.635937462 L2.95703125,0.635937462 Z" id="Path-65-decoration-2" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="process_down" transform="translate(13.000000, 5.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#929292" sketch:type="MSTextLayer" font-weight="normal">
+                                            <text id="0">
+                                                <tspan x="0" y="7" fill="#000000">0</tspan>
+                                            </text>
+                                        </g>
+                                        <g id="process_up" transform="translate(13.000000, 30.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#929292" sketch:type="MSTextLayer" font-weight="normal">
+                                            <text id="0">
+                                                <tspan x="0" y="7" fill="#000000">0</tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                    <g id="Path-65-+-0-+-0" transform="translate(612.000000, 92.000000)">
+                                        <path d="M2.95703125,-0.1640625 L2.95703125,39.6239949" id="Path-65" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <path d="M2.95703125,38.8359357 L5.95703125,28.0359363 L-0.04296875,28.035936 L2.95703125,38.8359357 L2.95703125,38.8359357 L2.95703125,38.8359357 Z" id="Path-65-decoration-1" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <path d="M2.95703125,0.635937462 L5.95703125,11.4359371 L-0.04296875,11.4359368 L2.95703125,0.635937462 L2.95703125,0.635937462 L2.95703125,0.635937462 Z" id="Path-65-decoration-2" stroke="#D8D8D8" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                        <g id="process_down" transform="translate(13.000000, 5.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#929292" sketch:type="MSTextLayer" font-weight="normal">
+                                            <text id="0">
+                                                <tspan x="0" y="7" fill="#000000">0</tspan>
+                                            </text>
+                                        </g>
+                                        <g id="process_up" transform="translate(13.000000, 30.000000)" font-size="7.3458014" font-family="Lucida Grande" fill="#929292" sketch:type="MSTextLayer" font-weight="normal">
+                                            <text id="0">
+                                                <tspan x="0" y="7" fill="#000000">0</tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                    <path d="M250.263672,257.029297 L289.796081,257.029297" id="Path-84" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M251.063672,257.029297 C254.843672,255.979297 258.083672,255.079297 261.863672,254.029297 L261.863672,260.029297 L251.063672,257.029297 L251.063672,257.029297 L251.063672,257.029297 Z" id="Path-84-decoration-1" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <path d="M289.263671,257.029297 L278.463671,254.029297 L278.463671,260.029297 C282.243671,258.979297 285.483671,258.079297 289.263671,257.029297 L289.263671,257.029297 L289.263671,257.029297 Z" id="Path-84-decoration-2" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                    <g id="counter1" transform="translate(360.000000, 417.000000)" font-size="33.9635158" font-family="Lucida Grande" fill="#929292" sketch:type="MSTextLayer" font-weight="normal">
+                                        <text id="0">
+                                            <tspan x="0" y="33" fill="#000000">0</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                                <path d="M154.258221,184 L154.258221,193.726725 L154.258221,203.453125 L154.258221,221.626142" id="Path-67" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                <path d="M154.258221,184.8 L157.258221,195.6 L151.258221,195.6 L154.258221,184.8 L154.258221,184.8 L154.258221,184.8 Z" id="Path-67-decoration-1" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                                <text id="0" fill="#929292" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="7.3458014" font-weight="normal">
+                                    <tspan x="161" y="212" fill="#000000">0</tspan>
+                                </text>
+                                <text id="0" fill="#929292" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="7.3458014" font-weight="normal">
+                                    <tspan x="391" y="212" fill="#000000">0</tspan>
+                                </text>
+                                <text id="0" fill="#929292" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="7.3458014" font-weight="normal">
+                                    <tspan x="151" y="483" fill="#000000">0</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M67.796875,164.109375 L27.751024,164.109375 L27.751024,489.108365 L172.752878,489.108365" id="follow2" stroke="#979797" sketch:type="MSShapeGroup"></path>
+                <path d="M83.5117284,73.6093743 L40.1562596,73.6093743 L40.1562596,19.4999535 L257.466519,19.4999535 L257.466519,31.8663685 L486.707586,31.8663685 L696.83131,31.8663685 L696.83131,98.002305 L745.76446,98.002305 L745.76446,238.196142 L699.74641,238.196142 L699.746409,437.222671 L392.960367,437.222671" id="follow" stroke="#D4D4D4" stroke-dasharray="4" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

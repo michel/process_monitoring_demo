@@ -4,6 +4,10 @@ class VanderlandenDemo.Views.Screens.LogicStep extends Backbone.View
   events:
     click: 'select'
     mouseover: 'hover'
+    dblclick: 'navigate'
+
+  navigate: ->
+    window.router.navigate('screen/2',true)
 
   initialize: ->
     @d3 = d3.select(@el)

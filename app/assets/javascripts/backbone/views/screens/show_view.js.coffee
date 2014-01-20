@@ -3,6 +3,11 @@ VanderlandenDemo.Views.Screens ||= {}
 class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
   template: JST["backbone/templates/screens/show"]
 
+  events:
+    'click .home': 'goHome'
+  goHome: ->
+    window.router.navigate('/', true)
+
   loadSVG: ->
     dfd = new jQuery.Deferred()
 

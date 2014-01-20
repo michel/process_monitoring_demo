@@ -1,7 +1,6 @@
 #menu
   %ul
-    %li
-      %a.fa.fa-sitemap.home
+    %li.fa.fa-sitemap.home
 #screen_content
   #svg_container
   #graps
