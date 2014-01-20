@@ -10,8 +10,15 @@
  *
  *= require_self
  *= require reset
+ *= require font-awesome
  *= require_tree .
  */
+@import "bourbon";
+@import "neat";
+// Change the grid settings
+$max-width: 100%;
+
+
 circle {
   opacity: 0.5;
 }

@@ -15,4 +15,4 @@ class VanderlandenDemo.Routers.ScreensRouter extends Backbone.Router
     screen = @screens.get(id)
     @view = new VanderlandenDemo.Views.Screens.ShowView(model: screen)
     $("#screens").html(@view.render().el)
-
+    window.screen = screen

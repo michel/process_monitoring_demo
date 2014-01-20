@@ -10,7 +10,7 @@ class VanderlandenDemo.Models.Screen extends Backbone.Model
 
   create_logistic_steps: (document) ->
     _.each $(document).find("g[id^='logistics_step']"), (node) =>
-      @logistics_steps.add node_name: $(node).attr('id')
+      @logistics_steps.add node_name: $(node).attr('id'), count_in: 0, count_out: 0
 
   load_svg_document: ->
     dfd = new jQuery.Deferred()

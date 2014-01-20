@@ -9,6 +9,7 @@ class VanderlandenDemo.Views.Screens.LogicStep extends Backbone.View
     @d3 = d3.select(@el)
     @d3.classed('logistic_step',true)
     @model.bind('change',@setState)
+    @bargraph = @options.bargraph
     @drawSelectionBox()
 
   setState: =>
@@ -37,6 +38,8 @@ class VanderlandenDemo.Views.Screens.LogicStep extends Backbone.View
     d3.select(".selected").classed("selected",false)
     @d3.classed('selected',true)
     @d3.classed('hover',false)
+    @bargraph.model = @model
+    @bargraph.render()
     e.preventDefault()
 
     false

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"  >
+    <g id="graph" sketch:type="MSLayerGroup">
+        <rect id="Rectangle-1" fill="#D8D8D8" sketch:type="MSShapeGroup" x="45" y="0" width="284" height="81" rx="8"></rect>
+        <rect id="Rectangle-2" stroke="#FFFFFF" fill="#FFFFFF" sketch:type="MSShapeGroup" x="61" y="38" width="251" height="30" rx="8"></rect>
+        <rect id="bar" stroke="#FFFFFF" stroke-width="0.8" fill="#7ED321" sketch:type="MSShapeGroup" x="64" y="41" width="<%= (201 / 100) * count_out %>" height="24" rx="8"></rect>
+        <text id="name" fill="#000000" sketch:type="MSTextLayer" width="201" font-family="Lucida Grande" font-size="12" font-weight="bold" sketch:alignment="middle">
+            <tspan x="110.902344" y="24" fill="#F4F4F4"><%= node_name %></tspan>
+        </text>
+        <path d="M0.5,54.5 L39.50877,54.5" id="Line" stroke="#D8D8D8" stroke-linecap="square" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+        <path id="Line-decoration-1" d="M39.5,54.5 C35.72,53.45 32.48,52.55 28.7,51.5 C28.7,53.6 28.7,55.4 28.7,57.5 C32.48,56.45 35.72,55.55 39.5,54.5 C39.5,54.5 39.5,54.5 39.5,54.5 Z" stroke="#D8D8D8" stroke-linecap="square" fill="#D8D8D8"></path>
+        <path d="M334.5,55.5 L373.50877,55.5" id="Line" stroke="#D8D8D8" stroke-linecap="square" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+        <path id="Line-decoration-1" d="M373.5,55.5 C369.72,54.45 366.48,53.55 362.7,52.5 C362.7,54.6 362.7,56.4 362.7,58.5 C366.48,57.45 369.72,56.55 373.5,55.5 C373.5,55.5 373.5,55.5 373.5,55.5 Z" stroke="#D8D8D8" stroke-linecap="square" fill="#D8D8D8"></path>
+        <text id="count_in" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="12" font-weight="normal" sketch:alignment="middle" fill="#FAA530">
+            <tspan x="12.4121094" y="42"><%= count_in %></tspan>
+        </text>
+        <text id="count_out" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="12" font-weight="normal" sketch:alignment="middle" fill="#F69525">
+            <tspan x="349.412109" y="42"><%= count_out %></tspan>
+        </text>
+    </g>
+</g>

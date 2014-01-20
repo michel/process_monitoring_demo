@@ -1,1 +1,8 @@
-%svg{xmlns:'http://www.w3.org/2000/svg'}
+#menu
+  %ul
+    %li
+      %a.fa.fa-sitemap.home
+#screen_content
+  #svg_container
+  #graps
+    #bar

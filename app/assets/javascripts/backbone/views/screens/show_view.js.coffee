@@ -4,11 +4,21 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
   template: JST["backbone/templates/screens/show"]
 
   loadSVG: ->
+    dfd = new jQuery.Deferred()
+
     @model.load_svg_document().done (data) =>
-      @d3.node().appendChild(data)
-      #@d3.select('text').attr('fill','#D8D8D8')
+      @.$('#svg_container').append(data)
+      @d3 = d3.select(@.$('svg')[0])
+      @bargraph = new VanderlandenDemo.Views.Screens.BarGraphView(model: @model.logistics_steps.at(0))
       @create_logic_step_views(@model.logistics_steps)
+      
       @randomEvents()
+      element = $(document)
+      @d3.attr 'viewBox',null
+      @d3.attr "width", null
+      @d3.attr "height", null
+      dfd.resolve()
+    return dfd.promise()
 
   randomEvents: ->
     do triggerCounters = =>
@@ -42,7 +52,7 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
 
   create_logic_step_views: (steps) ->
     steps.each (step) =>
-      view = new VanderlandenDemo.Views.Screens.LogicStep model: step, el: @d3.select("##{step.get('node_name')}")[0][0]
+      view = new VanderlandenDemo.Views.Screens.LogicStep model: step, el: @d3.select("##{step.get('node_name')}")[0][0], bargraph: @bargraph
       view.render()
 
   updateWindow: =>
@@ -74,7 +84,7 @@ class VanderlandenDemo.Views.Screens.ShowView extends Backbone.View
 
   render: ->
     $(@el).html(@template(@model.toJSON()))
-    @d3 = d3.select(@.$('svg')[0])
-    @loadSVG()
-    window.onresize = @updateWindow
+    $.when(@loadSVG()).then =>
+      @.$("#bar").html(@bargraph.render().el)
+
     return this
