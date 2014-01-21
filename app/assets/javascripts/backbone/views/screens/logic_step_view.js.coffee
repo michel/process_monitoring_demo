@@ -7,7 +7,10 @@ class VanderlandenDemo.Views.Screens.LogicStep extends Backbone.View
     dblclick: 'navigate'
 
   navigate: ->
-    window.router.navigate('screen/2',true)
+    if Backbone.history.fragment == 'screen/2'
+      window.router.navigate('screen/3',true)
+    else 
+      window.router.navigate('screen/2',true)
 
   initialize: ->
     @d3 = d3.select(@el)
